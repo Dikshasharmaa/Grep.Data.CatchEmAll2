@@ -1,37 +1,84 @@
 # Part 1
 ### a)
+###file1.)
+grep "beed" forest/filescan_00.1
+grep "bulb" forest/filescan_00.1
+grep "blas" forest/filescan_00.1
+grep "butt" forest/filescan_00.1
+
+###file2.)
+grep "izard" forest/filescan_00.2
+grep "mander" forest/filescan_00.2
+grep "meleon" forest/filescan_00.2
 
 
+###file3.)
+grep "ivys" forest/filescan_00.3
+grep "jigg" forest/filescan_00.3
+grep "meow" forest/filescan_00.3
+grep "pika" forest/filescan_00.3
 
+###file4.)
+grep "psyd" forest/filescan_00.4
+grep "squi" forest/filescan_00.4
+grep "venu" forest/filescan_00.4
+grep "wart" forest/filescan_00.4
 
 ### b)
-
-
-
+beedrill -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/beedrill.txt
+bulbasor -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/bulbasaur.txt
+blastoise -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/blastoise.txt
+butterfree -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/butterfree.txt
+charizard -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/charizard.txt
+charmander -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/charmander.txt
+charmelon -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/charmelon.txt
+ivysaur -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/ivysaur.txt
+jigglypuff -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/jigglypuff.txt
+meowth -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/meowth.txt
+pikachu -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/pikachu.txt
+psyduck -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/psyduck.txt
+squirtle ->/Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/squirtle.txt
+venusaur -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/venusaur.txt
+wartortle -> /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/captured/wartortle.txt
 ### c)
+filescan_00.1:
+beedrill
+bulbasor
+blastoise
+butterfree
 
+filescan_00.2
+charizard
+charmander
+charmelon
 
+filescan_00.3
+ivysaur
+jigglypuff
+meowth
+pikachu
 
-
-
-
-
-
-
-
+filescan_00.4
+psyduck
+squirtle
+venusaur
+wartortle
 
 
 
 # Part 2
 ### a)
-
-
-
-
+There are 15 pokemons
+grep -c 'forest' /Users/diksha/Desktop/projects-2/Grep.Data.CatchEmAll2/greps/answers.txt
 
 
 ### b)
+The three biggest pokemons are:
+beedrill
+charizard
+pikachu
 
+ grep -c "..." ./captured/*
 
 
 
